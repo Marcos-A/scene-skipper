@@ -156,6 +156,10 @@ For a manual check in each browser, play a Netflix episode with an intro or reca
 
 This project was developed under human direction and review, with support from artificial intelligence tools for parts of the code, debugging, and documentation. Decisions about how the system works and responsibility for the final result rest with the project maintainer.
 
+## License
+
+Released under the [MIT License](LICENSE).
+
 ## Disclaimer
 
 Scene Skipper is an independent project and is not affiliated with or endorsed by Netflix.
