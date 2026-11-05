@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scene Skipper</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="popup.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="icons/48.png" width="40" height="40" alt="">
+      <div><h1>Scene Skipper</h1><p>Straight to the story.</p></div>
+    </header>
+    <main>
+      <label class="master"><span>Auto-skip on Netflix</span><input type="checkbox" id="enabled" role="switch" disabled></label>
+      <fieldset id="skip-options" disabled>
+        <legend>Skip automatically</legend>
+        <label><span>Intros</span><input type="checkbox" id="skipIntros" role="switch"></label>
+        <label><span>Recaps</span><input type="checkbox" id="skipRecaps" role="switch"></label>
+      </fieldset>
+      <p id="status" role="status" aria-live="polite">Loading settings…</p>
+    </main>
+    <footer>Clicks the skip button when it appears.<br>Only on Netflix. No tracking.</footer>
+  </body>
+</html>

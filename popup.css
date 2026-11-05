@@ -1,0 +1,20 @@
+:root { color-scheme: dark; font: 14px/1.5 system-ui, sans-serif; background: #14171f; color: #f4f6fc; }
+* { box-sizing: border-box; }
+body { width: 310px; margin: 0; padding: 24px; }
+header { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+h1 { font-size: 20px; letter-spacing: -.6px; margin: 0; }
+header p { color: #a7b0c3; font-size: 12px; margin: 2px 0 0; }
+label { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 10px 0; cursor: pointer; }
+.master { font-weight: 650; padding-bottom: 20px; border-bottom: 1px solid #303644; }
+fieldset { border: 0; padding: 0; margin: 20px 0 0; min-width: 0; }
+legend { color: #a7b0c3; font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; padding: 0; }
+fieldset:disabled { opacity: .45; }
+input { appearance: none; flex-shrink: 0; width: 36px; height: 22px; border-radius: 20px; background: #485165; margin: 0; position: relative; cursor: pointer; }
+input::after { content: ""; position: absolute; width: 16px; height: 16px; background: #fff; border-radius: 50%; top: 3px; left: 3px; transition: transform .15s; }
+input:checked { background: #6a61e8; }
+input:checked::after { transform: translateX(14px); }
+input:focus-visible { outline: 2px solid #c7c3ff; outline-offset: 4px; }
+input:disabled { cursor: default; }
+#status { color: #c7c3ff; font-size: 12px; margin: 18px 0 0; min-height: 36px; }
+footer { border-top: 1px solid #303644; color: #a7b0c3; font-size: 11px; padding-top: 16px; margin-top: 18px; }
+@media (prefers-reduced-motion: reduce) { input::after { transition: none; } }
